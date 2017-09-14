@@ -1,4 +1,4 @@
-# Geo-Tagged-Photos-to-KML-and-CSV-
+# Geo-Tagged-Photos-to-KML-and-CSV- (Windows 7 version)
 
 This tool will take a directory of geo-tagged jpeg images (including images in any subdirectories) and it will create a KML file (and a CSV file) in that directory.  The output KML file can be opened in Google Earth and each image location will be marked by a Google Earth icon (a black and white target).  Each icon is labeled with the image name using a user defined text color.  Clicking on an icon in Google Earth will open a balloon box displaying the image, the image path relative to the kml, the image capture date, camera azimuth, GNSS elevation.
 
