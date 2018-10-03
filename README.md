@@ -2,6 +2,8 @@
 
 This tool will take a directory of geo-tagged jpeg images (including images in any subdirectories) and it will create a KML file (and a CSV file) in that directory.  The output KML file can be opened in Google Earth and each image location will be marked by a Google Earth icon (a black and white target).  Each icon is labeled with the image name using a user defined text color.  Clicking on an icon in Google Earth will open a balloon box displaying the image, the image path relative to the kml, the image capture date, camera azimuth, GNSS elevation.
 
+Two different versions are available.  One version does not label the KML points with the image name, one version add the image name as a label to the KML point.
+
 The KML stores relative paths to the images so the entire directory with the KML can be moved/shared without destroying the integrity of the KML.  This tool does not require cloud storage, third party software, and the original images resolutions remain in tack. 
 
 To view the original image in Google Earth Pro click a placemark to open the balloon.  Mouse over the image, right-click and choose open, then use the magnifying glass to view the original image.
